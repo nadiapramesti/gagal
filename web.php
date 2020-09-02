@@ -21,13 +21,6 @@ Route::prefix('Nadia')->group(function () {
 	Route::get('/Latihan 1', function () {
     echo "kuis Latihan pertemuan 13";
     echo '<p>memahami route pada laravel</p>';
-    Route::get('/Coba', function () {
-        echo '<h1 style="text-align: center"><u>Nadia Pramesti kelas XII RPL 1</u></h1>';
-        });
-    
-        Route::get('/{nama}', function ($nama) {
-            echo $nama;
-        });
 	});
 
 	Route::redirect('/contact-us', '/Nad');
